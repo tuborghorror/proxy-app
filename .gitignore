@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+npm-debug.log
+.env
+.tool-versions
+.idea
+package-lock.json
+logs
