@@ -17,7 +17,7 @@ app.use(async (req, res) => {
         if (contentType && contentType.includes('text/html')) {
             let html = await targetRes.text();
 
-            const metaTag = '<meta name="algolia-site-verification" content="" />';
+            const metaTag = '<meta name="algolia-site-verification"  content="F95FC1FE3D9D3B49" />';
             html = html.replace('<head>', `<head>${metaTag}`);
 
             res.set('Content-Type', 'text/html');
